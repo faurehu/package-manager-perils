@@ -1,32 +1,24 @@
-# Gestionando Paquetes
+# Paqueteando
 
-Como sentirse mas comodo en nuestras pesadillas
+![Packages](https://i.imgur.com/6lR9JPB.jpg)
+
+Formalmente conocido como administracion de sistemas de gestion de paquetes
 
 ---
 
 ## Quien soy?
 
+![Packages](https://i.imgur.com/fvk1Qhk.jpg)
+
 * Programador Freelancer
-* He creado productos a nivel corporativo, a nivel de herramientas y a nivel consumidor
-* Empresas de 6 personas hasta 1500
-* Deliveroo, Finimize, Paw, Sandtable
+* Herramientas.js: React, Typescript, Yoga
+* Previamente: Deliveroo, Finimize, Paw, Sandtable
 * Temas preferidos: crypto y public policy
 
 ---
 
-## Por que me importan los paquetes?
-
-Habia un momento en mi vida en el que yo pensaba que la culpa de todos mis problemas lo tenia la tia susy.
-
-Literalmente si tenia problemas pelando mi mandarina entraba a twitter y le mandaba un mensaje reclamandole que
-haga algo por todos los limenios
-
-Ahora que he crecido un poco y he encontrado la verdad.
-
-Los paquetes son la raiz de mis problemas.
-
-No solo en Javascript eh, donde puedo dejar un proyecto de lado por no mas de 6 meses y cuando trato de volver a ejecutarlo
-nada funciona
+## Que pasa con los paquetes?
+![Packages](https://www.shipsnostalgia.com/gallery/data/523/Hyundai_Fortune_Desktop_Resolution_.JPG)
 
 ---
 
@@ -44,7 +36,7 @@ nada funciona
     "gatsby-source-filesystem": "^2.0.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^6.2.0",
     "react-swipeable": "^4.3.0",
     "react-transition-group": "^2.4.0",
     "remark": "^9.0.0",
@@ -73,17 +65,57 @@ nada funciona
 
 ## Y si lo hacemos a mano?
 
+![Packages](https://media.giphy.com/media/FOUArYBVQCvmI8EHxp/giphy.gif)
+
+`mkdir && make && mv && ln -s` -> `npm i`
+
 ---
 
-## Historia
+## Historia de Gestion de Paquetes
 
----
+![Packages](https://media.giphy.com/media/29IeWbvLletfVPxZqy/giphy.gif)
 
-## Comandos
+C -> Java -> Ruby -> JS
 
 ---
 
 ## Semver
+
+* "0.3.10" < "0.10.3"
+* "*"
+* "2.\*.\*"
+* "~1.2.3"
+* "^1.2.3" == `">=1.2.3 <2.0.0"`
+* Major.Minor.Patch
+* Breaking.Feature.Fix
+
+---
+
+## Peligro
+
+```
+frutero-app
+  └─┬fruta@1.0.0
+    └─┬manzana@1.0.0
+      └──semilla@1.0.0
+```
+
+---
+
+## Decente
+
+```
+frutero-app
+  └─┬fruta@1.0.0
+    └─┬manzana@1.0.0
+      └──semilla@^1.0.0
+```
+
+---
+
+## Ciclo de vida
+
+![Packages](https://cdn-images-1.medium.com/max/716/1*jRJVOQnIOzEvDjuGd0o2OA.png)
 
 ---
 
@@ -91,15 +123,11 @@ nada funciona
 
 ---
 
-## Hoisting
-
----
-
 ## Colision de Objetos
 
----
+![Packages](https://i.imgur.com/qiXS8gJ.png)
 
-## PeerDependencies
+Y si dos dependencias usan diferentes versiones?
 
 ---
 
