@@ -14,6 +14,8 @@ Como sentirse mas comodo en nuestras pesadillas
 
 ---
 
+## Por que me importan los paquetes?
+
 Habia un momento en mi vida en el que yo pensaba que la culpa de todos mis problemas lo tenia la tia susy.
 
 Literalmente si tenia problemas pelando mi mandarina entraba a twitter y le mandaba un mensaje reclamandole que
@@ -69,37 +71,60 @@ nada funciona
 
 ---
 
-![Monkey](https://media.giphy.com/media/eRq5cCB58lBF6/giphy.gif)
-## Erase una vez en 1992
+## Y si lo hacemos a mano?
 
 ---
 
-Hagamos las cosas a mano, tareas:
-
-* Encontrar las dependencias
-* Colocarla en los lugares necesarios
-* Encontrar sus dependencias
-* Compilar esos binarios
+## Historia
 
 ---
 
-Dependency hell
+## Comandos
 
 ---
 
-## Slides are written in Markdown!
-
-Here's the source of the first slide:
-
-    # Gatsby Deck
-
-    Create presentations using Gatsby & React.
+## Semver
 
 ---
 
-![Monkey](//i.imgur.com/PnbINJ6.gif)
+## NPM vs Yarn vs pnpm
 
-🌟 Star it on [GitHub](//github.com/fabe/gatsby-deck),
-or create your own with:
+---
 
-    gatsby new my-slides https://github.com/fabe/gatsby-starter-deck
+## Hoisting
+
+---
+
+## Colision de Objetos
+
+---
+
+## PeerDependencies
+
+---
+
+## Caso eslint
+
+---
+
+## audit
+
+---
+
+## leftpad.js
+
+---
+
+## EventStream hack
+
+---
+
+## Signatures
+
+---
+
+## tink
+
+---
+
+## Gracias, siganmne
