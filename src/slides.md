@@ -63,6 +63,32 @@ Formalmente conocido como administracion de sistemas de gestion de paquetes
 
 ---
 
+## Grafo de dependencias
+
+---
+
+## is-object
+
+![Imgur](https://i.imgur.com/CDSCsQv.png)
+
+---
+
+## is-object
+
+```
+module.exports = function isObject(val) {
+  return val != null && typeof val === 'object' && Array.isArray(val) === false;
+};
+```
+
+---
+
+## Peso de node_modules
+
+![Imgur](https://i.imgur.com/iiV87qK.png)
+
+---
+
 ## Y si lo hacemos a mano?
 
 ![Packages](https://media.giphy.com/media/FOUArYBVQCvmI8EHxp/giphy.gif)
@@ -79,15 +105,11 @@ C -> Java -> Ruby -> JS
 
 ---
 
-## Semver
+## Colision de Objetos
 
-* "0.3.10" < "0.10.3"
-* "*"
-* "2.\*.\*"
-* "~1.2.3"
-* "^1.2.3" == `">=1.2.3 <2.0.0"`
-* Major.Minor.Patch
-* Breaking.Feature.Fix
+![Packages](https://i.imgur.com/qiXS8gJ.png)
+
+Y si dos dependencias usan diferentes versiones?
 
 ---
 
@@ -99,6 +121,36 @@ frutero-app
     └─┬manzana@1.0.0
       └──semilla@1.0.0
 ```
+
+---
+
+## Semver
+
+Major.Minor.Patch
+
+---
+
+## Semver
+
+Breaking.Feature.Fix
+
+---
+
+## Semver
+
+1.2.3
+
+---
+
+## Semver
+
+~1.2.3
+
+---
+
+## Semver
+
+^1.2.3
 
 ---
 
@@ -123,15 +175,27 @@ frutero-app
 
 ---
 
-## Colision de Objetos
+## leftpad.js
 
-![Packages](https://i.imgur.com/qiXS8gJ.png)
+```
+module.exports = leftpad;
 
-Y si dos dependencias usan diferentes versiones?
+function leftpad (str, len, ch) {
+  str = String(str);
 
----
+  var i = -1;
 
-## Caso eslint
+  if (!ch && ch !== 0) ch = ' ';
+
+  len = len - str.length;
+
+  while (++i < len) {
+    str = ch + str;
+  }
+
+  return str;
+}
+```
 
 ---
 
@@ -139,20 +203,30 @@ Y si dos dependencias usan diferentes versiones?
 
 ---
 
-## leftpad.js
+## Security vs Safety
+
+---
+
+![Safety](https://media.giphy.com/media/nYSlA9xdfKuNa/giphy.gif)
+
+---
+
+![Security](https://media.giphy.com/media/11fot0YzpQMA0g/giphy.gif)
+
+---
+
+## Caso eslint
+
+![hackerman](https://media.giphy.com/media/26tPnAAJxXTvpLwJy/giphy.gif)
 
 ---
 
 ## EventStream hack
+![bitcoin](https://media.giphy.com/media/rCzSdW8yU3cnm/giphy.gif)
 
 ---
 
-## Signatures
+## Gracias
 
----
-
-## tink
-
----
-
-## Gracias, siganmne
+* @faurehu
+* youtube.com/puertaslogicas
