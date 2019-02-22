@@ -2,7 +2,7 @@
 
 ![Packages](https://i.imgur.com/6lR9JPB.jpg)
 
-Formalmente conocido como administracion de sistemas de gestion de paquetes
+Administracion de sistemas de gestion de paquetes
 
 ---
 
@@ -205,13 +205,14 @@ function leftpad (str, len, ch) {
 
 ## Security vs Safety
 
----
-
-![Safety](https://media.giphy.com/media/nYSlA9xdfKuNa/giphy.gif)
 
 ---
 
 ![Security](https://media.giphy.com/media/11fot0YzpQMA0g/giphy.gif)
+
+---
+
+![Safety](https://media.giphy.com/media/nYSlA9xdfKuNa/giphy.gif)
 
 ---
 
@@ -228,5 +229,5 @@ function leftpad (str, len, ch) {
 
 ## Gracias
 
-* @faurehu
-* youtube.com/puertaslogicas
+* @hu_am__i
+* Siganme en Youtube!
